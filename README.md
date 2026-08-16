@@ -90,7 +90,7 @@ The highest sparsity was **6.02%** with `λ = 1e-5`.
 The following image shows the learned gate value distribution after training.
 
 <p align="center">
-  <img src="result.png" alt="Gate Distribution" width="700">
+  <img src="results.png" alt="Gate Distribution" width="700">
 </p>
 
 ## Files
