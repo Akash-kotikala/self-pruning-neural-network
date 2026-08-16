@@ -274,9 +274,14 @@ Thus, `λ = 5e-6` provided the best accuracy among the tested configurations, wh
 
 ## Gate Distribution
 
-The project generates a histogram of the learned gate values for the selected model.
+
+
+The following histogram shows the distribution of the learned gate values after training.
+
+![Gate Distribution](gate_distribution.png)
 
 The distribution helps visualize:
+
 
 - Gates close to zero that correspond to suppressed connections.
 - Gates away from zero that correspond to active connections.
