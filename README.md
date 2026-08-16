@@ -84,6 +84,13 @@ LAMBDA_VALUES = [
 The best test accuracy was **55.71%** with `λ = 5e-6`.
 
 The highest sparsity was **6.02%** with `λ = 1e-5`.
+## Effect of Sparsity Regularization
+
+The graph below compares the learned gate distributions for different values of `λ`. As the sparsity coefficient increases, the gate values become increasingly concentrated near zero, showing the effect of sparsity regularization.
+
+<p align="center">
+  <img src="sparsity_vs_lambda.png" alt="Effect of Sparsity Regularization on Gate Values" width="800">
+</p>
 
 ## Gate Distribution
 
