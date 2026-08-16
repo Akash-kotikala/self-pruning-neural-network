@@ -274,11 +274,7 @@ Thus, `λ = 5e-6` provided the best accuracy among the tested configurations, wh
 
 ## Gate Distribution
 
-
-
-The following histogram shows the distribution of the learned gate values after training.
-
-![Gate Distribution](gate_distribution.png)
+The project generates a histogram of the learned gate values for the selected model.
 
 The distribution helps visualize:
 
