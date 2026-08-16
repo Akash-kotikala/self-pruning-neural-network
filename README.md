@@ -351,17 +351,8 @@ git clone https://github.com/Akash-kotikala/self-pruning-neural-network.git
 cd self-pruning-neural-network
 ```
 
-### 3. Install dependencies
 
-```bash
-pip install -r requirements.txt
-```
 
-### 4. Run the experiment
-
-```bash
-python submission.py
-```
 
 The CIFAR-10 dataset will be downloaded automatically if it is not already present.
 
@@ -388,16 +379,12 @@ requirements.txt
 ```text
 self-pruning-neural-network/
 │
-├── submission.py
+├── submission.ipynb
 ├── README.md
-├── requirements.txt
-├── .gitignore
-│
-└── results/
-    └── gate_distribution.png
+
 ```
 
-### `submission.py`
+### `submission.ipynb`
 
 Contains the complete implementation:
 
@@ -410,9 +397,7 @@ Contains the complete implementation:
 - Gate distribution visualization
 - Lambda experiments
 
-### `requirements.txt`
 
-Lists the Python dependencies required to run the project.
 
 ### `results/`
 
